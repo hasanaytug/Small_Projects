@@ -1,0 +1,56 @@
+
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+.tab{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#tab1{
+    background-color: crimson;
+}
+
+#tab2{
+    background-color: darkgoldenrod;
+}
+
+#tab3{
+    background-color: darkmagenta;
+}
+
+.contents{
+    margin: 0 100px;
+}
+
+.content{
+    display: none;
+}
+
+.transform{
+    transform: translate(0px, 5px);
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 50px 0px;
+    background-color: blueviolet;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+#content1{
+    background-color: crimson;
+}
+#content2{
+    background-color: darkgoldenrod;
+}
+#content3{
+    background-color: darkmagenta;
+}
